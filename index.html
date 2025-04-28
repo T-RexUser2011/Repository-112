@@ -13,16 +13,29 @@
     <p>Sum of two Variables</p>
     <p id="result"></p>
 
+    <h2>Javascript Statements</h2>
+
+    <p>A <b>Javascript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+    <p id="demo"></p>
+
     <script>
+        var x, y, z; // Statement 1
+        x = 5; // Statement 2
+        y = 6; // Statement 3
+        z = x + y; // Statement 4
+        document.getElementsById("demo").innerHTML = "The value of z is: " + z + "."; 
+    
+
+    
         var num1 = 5;
         var num2 = 10;
         var sum = num1 + num2;
         document.getElementById("result").innerHTML = "The sum of " + num1 + " and " + num2 + " is: " + sum;
-    </script>
 
-    <script>
+    
         document.getElementById("myH").innerHTML = "Hello World!";
-        document.getElementById("myP").innerHTML = "This is a paragraph.";
+          console.log("Page loaded successfully.");
+      document.getElementById("myP").innerHTML = "This is a paragraph.";
     </script>
    
 </body>
